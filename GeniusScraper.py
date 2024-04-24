@@ -145,9 +145,3 @@ class GeniusScraper:
 
 
 
-
-
-    
-scraper = GeniusScraper()
-df = scraper.scrape_albums(["https://genius.com/albums/Eminem/The-marshall-mathers-lp-2"])
-df.to_csv("album.csv")
