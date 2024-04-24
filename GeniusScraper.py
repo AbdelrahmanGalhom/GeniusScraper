@@ -129,7 +129,6 @@ class GeniusScraper:
                 songs.append(song_name)
                 album_names.append(album_name)
         
-        print(lyrics_links)
         for song in lyrics_links:
 
             lyrics, date, views,artist,tags = self.full_scrape_song(song)
